@@ -6,8 +6,9 @@ public class MainClass {
 		WEBDRIVER driver=new ChromeDriver();
 		driver.m1();
 		driver.m2();
-		//JAVASCRIPTEXECUTOR jse=JAVASCRIPTEXECUTOR driver;
-
+		JAVASCRIPTEXECUTOR jse=(JAVASCRIPTEXECUTOR) driver;
+		jse.m3();
+		jse.m4();
 	}
 
 }
